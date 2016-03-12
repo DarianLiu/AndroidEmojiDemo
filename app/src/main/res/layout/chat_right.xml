@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|right"
+        android:paddingTop="10dip"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/right_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="50dip"
+            android:maxWidth="200dip"
+            android:background="@drawable/chattto_normal" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/meinv_02" />
+    </LinearLayout>
+</LinearLayout>
